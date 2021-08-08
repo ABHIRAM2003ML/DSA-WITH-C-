@@ -1,0 +1,46 @@
+*** ASSIGNMENT - 1 ***
+** Question - 1 **
+
+#include <iostream>
+using namespace std;
+
+void fun(int n);
+{
+  a = 1
+  b = 1
+  while(b <= n)
+  {
+    a += 1
+    b += 1
+    cout<<"Hi";
+  }
+}
+
+Time Complexity of the given code snippet T(n) : 0(n)
+  Reason : When 'a' value increased 'b' value also increased 
+  in a linear condition and the graph is linear.
+ 
+ 
+ 
+*** ASSIGNMENT - 1 ***
+** Question - 2 **
+
+#include <iostream>
+using namespace std;
+
+void fun(int n)
+{
+  if(n > 0)
+  {
+    fun(n - 1);
+    cout<<n;
+  }
+}
+
+int main()
+{
+    fun(9);
+    return 0;
+}
+
+Output : 123456789
